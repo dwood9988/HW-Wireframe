@@ -1,9 +1,21 @@
-html, body {
+body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    background-color: '#777';
-    width: '960px';
-    font-size: '18px';
+    background-color: #777;
+    width: 960px;
+    font-size: 18px;
     text-align: center;
+}
+
+.container {
+    position: fixed;
+    top: 0px;
+    background-color: #777;
+    width: 100%;
+    height: 100%;
+}
+
+.container-2 {
+    margin: auto;
 }
 
 .box-set {
@@ -11,28 +23,36 @@ html, body {
 }
 
 h1 h2 h3 p {    
-    color: '#777';
+    color: #777;
     width: 495px;
-    background: '#ebebeb';
+    background: #ebebeb;
     text-align: center;
+    margin: 25%;
 }
 
 .Box-Header {
-    position: relative;
+    position: fixed;
+    top: 0;
     background: white;
-    width: 100%;   
-    padding: 25px;
-    margin: 25px;
-    border: 2px solid red;
+    color: #777;
+    clear: both;
+    width: 90%;   
+    padding: 2%;
+    margin: 2%;
+    border: 2px solid black;
     text-align: center;
 }
 
 .Box-Nav {
+    position: fixed;
+    top: 75px;
     background: white;
-    width: 100%;   
-    padding: 25px;
-    margin: 25px;
-    border: 2px solid red;
+    color: #777;
+    clear: both;
+    width: 90%;   
+    padding: 2%;
+    margin: 2%;
+    border: 2px solid black;
     text-align: center;
 }
 
@@ -42,22 +62,22 @@ h1 h2 h3 p {
     height: 300px;
     padding: 25px;
     margin: 25px;
-    border: 2px solid red;
-    color: '#ebebeb';
-    background: '#777';
+    border: 2px solid black;
+    color: #777;
     text-align: center;
     float: right;
 }
 
 .Box-Section {
     background: white;
+    color: #777;
     position: relative;
     float: left;
     width: 495px;  
     height: 300px;
     padding: 25px;
     margin: 25px;
-    border: 2px solid red;
+    border: 2px solid black;
     text-align: center;
 }
 
@@ -70,36 +90,40 @@ h1 h2 h3 p {
     padding: 25px;
     margin: 25px;
     background: #777;
-    border: 2px solid red;
+    border: 2px solid black;
     text-align: center;
 }
 
-.Box-H123 {
-    background: white;
+#Box-H123 {
     position: absolute;
-    float: left;
+    background: white;
+    color: #777;
     width: 300px;   
     padding: 25px;
     margin: 25px;
-    border: 2px solid red;
+    border: 2px solid black;
     text-align: center;
 }
 
-.Box-P {
+#Box-P {
+    bottom: 10px;
     background: white;
-    position: absolute;
+    color: #777;
     width: 300px;   
     padding: 25px;
     margin: 25px;
-    border: 2px solid red;
+    border: 2px solid black;
     text-align: center;
 }
 .Box-Footer {
+    position: fixed;
+    bottom: 0;
     background: white;
+    color: #777;
     clear: both;
-    width: 100%;   
-    padding: 25px;
-    margin: 25px;
-    border: 2px solid red;
+    width: 90%;   
+    padding: 2%;
+    margin: 2%;
+    border: 2px solid black;
     text-align: center;
 }
